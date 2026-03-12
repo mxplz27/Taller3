@@ -1,18 +1,41 @@
-# React + Vite
+Tienda Apple - Taller 3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Tienda virtual de productos Apple desarrollada con React y Material UI.
+Permite explorar productos, agregarlos al carrito, marcarlos como favoritos
+y simular un proceso de compra. Proyecto académico de tercer trimestre.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características principales
 
-## React Compiler
+- 🛍️ Catálogo de productos Apple con imágenes y precios
+- ❤️ Sistema de favoritos con contador en el header
+- 🛒 Carrito de compras con suma, resta y total en tiempo real
+- 📦 Historial de compras simulado
+- 🏷️ Sección de ofertas con descuentos
+- 📱 Diseño responsive con menú hamburguesa en móvil
+- 🔀 Navegación entre páginas con React Router
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Interfaz gráfica
 
-Note: This will impact Vite dev & build performances.
+| Página | Descripción 
+| Inicio | Hero principal, productos destacados y beneficios |
+| Productos | Catálogo completo con filtro de favoritos y carrito |
+| Ofertas | Productos con descuento y badge de porcentaje |
+| Favoritos | Lista de productos guardados |
+| Mis Compras | Historial simulado de pedidos |
+| Mi Cuenta | Perfil del usuario |
 
-## Expanding the ESLint configuration
+Tecnologías usadas
+- **React 18** — librería principal de UI
+- **Vite** — bundler y servidor de desarrollo
+- **Material UI (MUI v6)** — componentes de interfaz
+- **React Router DOM** — navegación entre páginas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  Autor:
+
+  Mariana López Palencia 
+  marianalopezpalencia10@gmail.com
+  11/03/2026
+  Trimestre 3
